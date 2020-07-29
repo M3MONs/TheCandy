@@ -45,13 +45,13 @@
       <div class="row align-items-center">
          <div class="col-lg-6">
             <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+               <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
             </div>
          </div>
          <div class="col-lg-6">
@@ -60,12 +60,62 @@
       </div>
    </section>
 
-   <section class="container-fluid px-0 content">
-      <div class="row align-items-center">
-         <div class="col-6">
+   <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+         <div class="col-md-6 order-2 order-md-1">
             <img src="imgs/milk.png" class="img-fluid" alt="">
          </div>
-         <div class="col-6"></div>
+         <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+               <div class="col-10 col-lg-8">
+                  <h2 class="text-danger display-4">MUSEUM OF CANDY</h2>
+                  <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                  <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, maxime dolorem
+                     corporis
+                     voluptatem maiores laborum necessitatibus deleniti perspiciatis voluptatum hic minima ad nulla
+                     fugiat,
+                     quidem voluptates, labore consequuntur facilis quasi.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="row align-items-center content">
+         <div class="col-md-6 order-2">
+            <img src="imgs/gumball.png" class="img-fluid" alt="">
+         </div>
+         <div class="col-md-6 text-center order-1">
+            <div class="row justify-content-center">
+               <div class="col-10 col-lg-8">
+                  <h2 class="text-danger display-4">MUSEUM OF CANDY</h2>
+                  <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                  <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, maxime dolorem
+                     corporis
+                     voluptatem maiores laborum necessitatibus deleniti perspiciatis voluptatum hic minima ad nulla
+                     fugiat,
+                     quidem voluptates, labore consequuntur facilis quasi.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="row align-items-center content">
+         <div class="col-md-6 order-2 order-md-1">
+            <img src="imgs/sprinkles.png" class="img-fluid" alt="">
+         </div>
+         <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+               <div class="col-10 col-lg-8">
+                  <h2 class="text-danger display-4">MUSEUM OF CANDY</h2>
+                  <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                  <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, maxime dolorem
+                     corporis
+                     voluptatem maiores laborum necessitatibus deleniti perspiciatis voluptatum hic minima ad nulla
+                     fugiat,
+                     quidem voluptates, labore consequuntur facilis quasi.</p>
+               </div>
+            </div>
+         </div>
       </div>
    </section>
 
@@ -81,6 +131,14 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
    </script>
 
+   <script>
+      $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+   </script>
 </body>
 
 </html>
